@@ -1,2 +1,2 @@
 # BusinessSite
-It is a site that I am still working at for developing my skills
+One of the first challenges I've recived
