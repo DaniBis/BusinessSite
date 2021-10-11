@@ -38,13 +38,9 @@ carousel = (function(){
   navigate(0);
 })();
 
-function texttoggle() {
-    var x = document.getElementsByClassName('details_pharagraph_extended');
-    if (x[0].style.display === 'none') {
-        x[0].style.display = 'inline-block';
-    } else {
-        x[0].style.display = 'none';
-    }
+function texttoggle(id) {
+  $(".toggle").not($("#" + id)).hide(); 
+  $("#" + id).toggle(); 
 }
 
 function showButtons() {
